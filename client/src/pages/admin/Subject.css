@@ -1,0 +1,100 @@
+.session-container {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.session-form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 25px;
+}
+
+.session-form h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.submit-btn {
+  background: #ff00ff;
+  color: white;
+  border: none;
+  //padding: 10px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.submit-btn:hover {
+  background: #0056b3;
+}
+
+.session-table {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.session-table h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.table-wrapper {
+  max-height: 400px; /* keeps table scrollable */
+  overflow-y: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background: #f8f8f8;
+  font-weight: 600;
+}
+
+.btn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  margin-right: 6px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.btn-danger {
+  background: #dc3545;
+  color: white;
+  border: none;
+}
+
+.btn-success {
+  background: #28a745;
+  color: white;
+  border: none;
+}
+
+.btn-danger:hover {
+  background: #a71d2a;
+}
+.btn-success:hover {
+  background: #1e7e34;
+}
